@@ -1,0 +1,23 @@
+{
+  "name": "curso-typescript",
+  "version": "1.0.0",
+  "description": "Curso de Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walber-vaz/curso-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walber-vaz/curso-typescript/issues"
+  },
+  "homepage": "https://github.com/walber-vaz/curso-typescript#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
