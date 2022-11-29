@@ -18,8 +18,8 @@ console.log(isHuman);
 let minhaIdade;
 minhaIdade = 32;
 console.log(typeof minhaIdade);
-minhaIdade = '32';
-console.log(typeof minhaIdade);
+// minhaIdade = '32'
+// console.log(typeof minhaIdade)
 // Tipos arrays
 // dizendo que variável e do tipo arrays de string, number, boolean ou any
 let hobbies = ['Codar', 'Jogar', 'Ajudar'];
@@ -45,3 +45,22 @@ let carro = 'BMW';
 console.log(carro);
 carro = { nome: 'BMW', ano: '2022' };
 console.log(carro.ano);
+// Tipos em funções
+// Fazer uma função retorna um tipo explicito
+function retornaNome() {
+    return nome;
+}
+console.log(retornaNome);
+// Tipo void
+// se uma função não retorna nada pode usar tipo 'void'
+function digaOla() {
+    console.log('ola');
+    // se colocar um retorno vai gerar um erro no compilador
+    // return minhaIdade
+}
+digaOla();
+// Tipo para parâmetro da função
+function mult(num1, num2) {
+    return num1 * num2;
+}
+console.log(mult(10, 20));
