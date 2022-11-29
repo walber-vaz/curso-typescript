@@ -20,3 +20,8 @@ minhaIdade = 32;
 console.log(typeof minhaIdade);
 minhaIdade = '32';
 console.log(typeof minhaIdade);
+// Tipos arrays
+// dizendo que variável e do tipo arrays de string, number, boolean ou any
+let hobbies = ['Codar', 'Jogar', 'Ajudar'];
+console.log(hobbies[0]);
+console.log(typeof hobbies);
