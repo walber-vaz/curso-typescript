@@ -40,3 +40,8 @@ var Cor;
 })(Cor || (Cor = {}));
 let minhasCores = Cor.Green;
 console.log(minhasCores); // 255, 255, 255
+// tipo any
+let carro = 'BMW';
+console.log(carro);
+carro = { nome: 'BMW', ano: '2022' };
+console.log(carro.ano);

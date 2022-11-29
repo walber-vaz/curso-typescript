@@ -45,3 +45,9 @@ enum Cor {
 }
 let minhasCores: Cor = Cor.Green
 console.log(minhasCores) // 255, 255, 255
+
+// tipo any
+let carro: any = 'BMW'
+console.log(carro)
+carro = { nome: 'BMW', ano: '2022' }
+console.log(carro.ano)
