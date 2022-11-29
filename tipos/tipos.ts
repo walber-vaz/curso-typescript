@@ -75,3 +75,9 @@ function mult(num1: number, num2: number): number {
 }
 
 console.log(mult(10, 20))
+
+// Tipo função
+// A ordem os parâmetro importante
+let calculo: (numA: number, numa: number) => number
+calculo = mult
+console.log(calculo(10, 20))

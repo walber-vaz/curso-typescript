@@ -64,3 +64,8 @@ function mult(num1, num2) {
     return num1 * num2;
 }
 console.log(mult(10, 20));
+// Tipo função
+// A ordem os parâmetro importante
+let calculo;
+calculo = mult;
+console.log(calculo(10, 20));
