@@ -31,6 +31,17 @@ console.log(hobbies[0])
 console.log(typeof hobbies)
 
 // Tipo tupla
-// E uma quantidade pre definida de tipos
+// E uma quantidade pre definida de tipos no array
 let endereco: [string, number] = ['Av. Fulano de tal', 234]
 console.log(endereco)
+
+// Tipo enums
+// São valores pre definida
+// Podemos definir valores padrão
+enum Cor {
+  Red = 255, // 255
+  Green = 255, // 255
+  Blue = 255 // 255
+}
+let minhasCores: Cor = Cor.Green
+console.log(minhasCores) // 255, 255, 255

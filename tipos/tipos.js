@@ -26,6 +26,17 @@ let hobbies = ['Codar', 'Jogar', 'Ajudar'];
 console.log(hobbies[0]);
 console.log(typeof hobbies);
 // Tipo tupla
-// E uma quantidade pre definida de tipos
+// E uma quantidade pre definida de tipos no array
 let endereco = ['Av. Fulano de tal', 234];
 console.log(endereco);
+// Tipo enums
+// São valores pre definida
+// Podemos definir valores padrão
+var Cor;
+(function (Cor) {
+    Cor[Cor["Red"] = 255] = "Red";
+    Cor[Cor["Green"] = 255] = "Green";
+    Cor[Cor["Blue"] = 255] = "Blue"; // 255
+})(Cor || (Cor = {}));
+let minhasCores = Cor.Green;
+console.log(minhasCores); // 255, 255, 255
