@@ -30,3 +30,7 @@ let hobbies: string[] = ['Codar', 'Jogar', 'Ajudar']
 console.log(hobbies[0])
 console.log(typeof hobbies)
 
+// Tipo tupla
+// E uma quantidade pre definida de tipos
+let endereco: [string, number] = ['Av. Fulano de tal', 234]
+console.log(endereco)
