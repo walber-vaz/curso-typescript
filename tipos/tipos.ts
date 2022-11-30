@@ -120,3 +120,13 @@ let nota: number | string = 10
 console.log(`Minha nota é ${nota}!`);
 nota = '10'
 console.log(`Minha nota é ${nota}!`);
+
+// Chegando tipos
+// Fazemos assim no javascript mais no typescript
+// ele verificar automaticamente
+let valor = 10
+if (typeof valor === 'number') {
+  console.log('É um number!')
+} else {
+  console.log(typeof valor)
+}
