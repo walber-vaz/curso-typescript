@@ -94,3 +94,22 @@ user = {
 }
 
 console.log(user)
+
+// Alias
+// Criando tipo no typescript
+type Funcionario = {
+  supervisores: string[],
+  baterPonto: (horas: number) => string,
+}
+
+const funcionario2: Funcionario = {
+  supervisores: ['Walber', 'Pedro', 'Miguel'],
+  baterPonto(pontoHora: number): string {
+    if (pontoHora <= 8) {
+      return 'Ponto normal'
+    }
+    return 'Fora do Horário'
+  }
+}
+
+console.log(funcionario2.baterPonto(10))

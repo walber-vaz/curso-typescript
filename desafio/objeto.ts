@@ -1,9 +1,6 @@
 // Criar um array de string com nomes dos supervisores
 // e uma função para bater ponto
-const funcionario: {
-  supervisores: string[],
-  baterPonto: (horas: number) => string,
-} = {
+const funcionario1: Funcionario = {
   supervisores: ['Walber', 'Pedro', 'Miguel'],
   baterPonto(pontoHora: number): string {
     if (pontoHora <= 8) {
@@ -13,4 +10,4 @@ const funcionario: {
   }
 }
 
-console.log(funcionario.baterPonto(10))
+console.log(funcionario1.baterPonto(10))

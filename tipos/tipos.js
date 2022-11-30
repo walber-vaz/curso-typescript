@@ -79,3 +79,13 @@ user = {
     age: 21
 };
 console.log(user);
+const funcionario2 = {
+    supervisores: ['Walber', 'Pedro', 'Miguel'],
+    baterPonto(pontoHora) {
+        if (pontoHora <= 8) {
+            return 'Ponto normal';
+        }
+        return 'Fora do Horário';
+    }
+};
+console.log(funcionario2.baterPonto(10));
