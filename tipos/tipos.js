@@ -89,3 +89,9 @@ const funcionario2 = {
     }
 };
 console.log(funcionario2.baterPonto(10));
+// Tipo Union
+// Assim  variável aceita um tipo ou outro
+let nota = 10;
+console.log(`Minha nota é ${nota}!`);
+nota = '10';
+console.log(`Minha nota é ${nota}!`);
