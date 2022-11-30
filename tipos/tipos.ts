@@ -81,3 +81,16 @@ console.log(mult(10, 20))
 let calculo: (numA: number, numa: number) => number
 calculo = mult
 console.log(calculo(10, 20))
+
+// Tipos Object
+let user: { name: string, age: number } = {
+  name: '2k',
+  age: 32
+}
+
+user = {
+  name: 'walber',
+  age: 21
+}
+
+console.log(user)
