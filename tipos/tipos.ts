@@ -130,3 +130,26 @@ if (typeof valor === 'number') {
 } else {
   console.log(typeof valor)
 }
+
+// Tipo Never
+// Quando colocamos tipo never
+// a função nunca vai retorna bem sucedida
+function falha(msg: string): never {
+  throw new Error(msg)
+}
+
+const produto = {
+  nome: 'Sabão',
+  preco: 1,
+  validarProduto() {
+    if (!this.nome || this.nome.trim().length == 0) {
+      falha('Precisa colocar nome do produto!')
+    }
+    if (this.preco < 0) {
+      falha('Preço invalido!')
+    }
+  }
+}
+
+
+produto.validarProduto()
