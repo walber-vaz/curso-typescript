@@ -124,3 +124,13 @@ const produto = {
     }
 };
 produto.validarProduto();
+// Tipo null
+let altura = 12;
+let alturaOp = 12;
+alturaOp = null;
+const contatos = {
+    nome: '2k',
+    tel: '1234578902',
+    tel2: null,
+};
+console.log(contatos);
