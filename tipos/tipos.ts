@@ -151,7 +151,6 @@ const produto = {
   }
 }
 
-
 produto.validarProduto()
 
 // Tipo null
